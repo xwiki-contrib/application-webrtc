@@ -1,4 +1,4 @@
-# WebRTC Client
+== WebRTC Client ==
 
 You need to install [node.js](http://nodejs.org) and [npm](https://npmjs.org). 
 Install [grunt](http://gruntjs.com/): ```npm install -g grunt ```.
