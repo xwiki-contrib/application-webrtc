@@ -1,0 +1,8 @@
+<ul>
+<% for m in @msg: %>
+  <li>
+    <span class="username"><%= m.name %>:</span>
+    <span class="message"><%= m.message %></span>
+  </li>
+<% end %>
+</ul>

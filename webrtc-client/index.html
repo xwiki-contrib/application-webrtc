@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="js/require.js"></script>
+    <script src="js/app.min.js"></script>
+    <style>
+        .chat {
+            width: 200px;
+        }
+        .chat-header {
+            background: blue;
+            color: white;
+            padding: 4px;
+        }
+
+        .chat-messages {
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            height: 200px;
+            overflow-y: auto;
+            padding: 0;
+        }
+
+        .chat-messages ul {
+            list-style: none;
+            padding: 0 0 3px 3px;
+            margin: 0;
+        }
+
+        .chat-messages .username {
+            color: blue;
+        }
+
+        .chat-footer {
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            border-bottom: 1px solid black;
+        }
+
+        .chat-footer button {
+            height: 21px;
+        }
+
+        .chat-footer input {
+            width: 144px;
+            outline: none;
+            margin-left: 2px;
+        }
+    </style>
+</head>
+<body>
+    <span id="user" data-main="Vic">Vic</span>
+    <span id="user2" data-main="Marcel">Marcel</span>
+    <div id="chat"></div>
+</body>
+</html>

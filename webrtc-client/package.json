@@ -1,0 +1,14 @@
+{
+    "name": "webrtc-client",
+    "dependencies":
+    {
+        "grunt-contrib-concat": "*",
+        "grunt-contrib-watch": "*",
+        "grunt-contrib-coffee": "*",
+        "eco": "*",
+        "coffee-script": "*",
+        "grunt-contrib-uglify": "*",
+        "grunt-growl": "*",
+        "growl": "*"
+    }
+}
